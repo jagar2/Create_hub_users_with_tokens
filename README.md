@@ -9,7 +9,11 @@ To run the script with sudo access you type:
 where: 
 
 `file_name` is the base filename for the CSV file
+
 `base_name` is the base name of the user account <base_number>
+
 `number_of_accounts` is the number of accounts to create. The accounts start at 1
+
 `admin_api_token` is an api token associated with the admin account - this admin must be a sudoer
+
 `hub_ip_address` is the ip address where the hub is located
