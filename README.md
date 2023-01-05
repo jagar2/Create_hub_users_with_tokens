@@ -16,4 +16,4 @@ where:
 
 `admin_api_token` is an api token associated with the admin account - this admin must be a sudoer
 
-`hub_ip_address` is the ip address where the hub is located
+`hub_ip_address` is the ip address where the hub is located (This is just the address no http://)
