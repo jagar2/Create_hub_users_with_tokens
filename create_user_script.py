@@ -190,7 +190,10 @@ com = command_class(
 )
 
 for i in range(1, number_of_users + 1):
-    com.add_user(f"{base_name}_{i}")
+    try:
+        com.add_user(f"{base_name}_{i}")
+    except:
+        pass
 
 # Open a file in write mode
 with open(f"{file_name}.csv", "w", newline="") as file:
