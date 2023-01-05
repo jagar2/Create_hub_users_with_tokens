@@ -17,3 +17,9 @@ where:
 `admin_api_token` is an api token associated with the admin account - this admin must be a sudoer
 
 `hub_ip_address` is the ip address where the hub is located (This is just the address no http://)
+
+To use:
+1. clone the repository
+2. Modify the batch.sh file if needed
+3. `chmod +x ~/Create_hub_users_with_tokens/batch.sh`
+4. `~/Create_hub_users_with_tokens/batch.sh {Admin API Token} {hub ip address}`
